@@ -1,5 +1,5 @@
 # Classification of galaxy and NSC
-Welcome here. We provide here the HR-CelestialNet code (Pytorch), the list of LCID test sets, and the list of Blurry verification sets from the project exploring galaxies and NSC classification.
+Welcome here. We provide here the HR-CelestialNet code (PyTorch), the list of LCID test sets, and the list of Blurry verification sets from the project exploring galaxies and NSC classification.
 ## HR-CelestialNet.py
 Contained here is the core CNN network of HR-CelestialNet, designed for galaxy and NSC classification using PyTorch. For training purposes, you may need to add specific parameters in the training process, such as the optimizer, learning rate, and others.
 ## LCID_test.csv and blurry_validation.csv
