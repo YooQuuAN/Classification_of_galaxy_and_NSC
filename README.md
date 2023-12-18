@@ -8,7 +8,7 @@ To optimize memory usage, we have enriched the dataset table with various fields
 - Dowload FITS files,  We experiment with files with the **raw.fits** suffix;
 - Read files,  **HDU_Index** indicates the position of this image within the FITS file，you need to follow it to read the image accurately.
 
-## If you use the code or dataset provided in this repository in your research, please cite the following [paper](https://academic.oup.com/mnras/advance-article/doi/10.1093/mnras/stad3815/7476003):
+# If you use the code or dataset provided in this repository in your research, please cite the following [paper](https://academic.oup.com/mnras/advance-article/doi/10.1093/mnras/stad3815/7476003):
 
 @article{10.1093/mnras/stad3815,
     author = {Zhang, Yuquan and Cao, Zhong and Wang, Feng and Lam, Man I and Deng, Hui and Mei, Ying and Tan, Lei},
@@ -17,11 +17,8 @@ To optimize memory usage, we have enriched the dataset table with various fields
     pages = {stad3815},
     year = {2023},
     month = {12},
-    abstract = "{The Chinese Space Station Telescope (abbreviated as CSST) is a future advanced space telescope. Real-time identification of galaxy and nebula/star cluster (abbreviated as NSC) images is of great value during CSST survey. While recent research on celestial object recognition has progressed, the rapid and efficient identification of high-resolution local celestial images remains challenging. In this study, we conducted galaxy and NSC image classification research using deep learning methods based on data from the Hubble Space Telescope. We built a Local Celestial Image Dataset and designed a deep learning model named HR-CelestialNet for classifying images of the galaxy and NSC. HR-CelestialNet achieved an accuracy of 89.09\\% on the testing set, outperforming models such as AlexNet, VGGNet and ResNet, while demonstrating faster recognition speeds. Furthermore, we investigated the factors influencing CSST image quality and evaluated the generalization ability of HR-CelestialNet on the blurry image dataset, demonstrating its robustness to low image quality. The proposed method can enable real-time identification of celestial images during CSST survey mission.}",
     issn = {0035-8711},
     doi = {10.1093/mnras/stad3815},
-    url = {https://doi.org/10.1093/mnras/stad3815},
-    eprint = {https://academic.oup.com/mnras/advance-article-pdf/doi/10.1093/mnras/stad3815/54534040/stad3815.pdf},
-}
+    url = {https://doi.org/10.1093/mnras/stad3815}}
 
 Thank you for citing our work.
